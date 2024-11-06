@@ -17,5 +17,5 @@ sequenceDiagram
     activate Server
     Server-->>Browser: JSON data with notes
     deactivate Server
-    Browser: Render updated notes on page
+    Browser->>Render updated notes on page
 ```
