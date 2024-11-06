@@ -9,6 +9,7 @@ sequenceDiagram
     activate Server
     Server-->>Browser: 201 Created
     deactivate Server
-    Browser->>User: Render updated notes on page
+    Browser->>User: Add new note to page without reloading
 ```
+
 
